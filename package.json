@@ -1,0 +1,25 @@
+{
+  "name": "node-gateway",
+  "version": "1.0.0",
+  "description": "a single ui multiple microservices behind gateway solution.",
+  "author": "Jubair Saidi <jubair.saidi@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/jubairsaidi/node-gateway",
+  "main": "start.js",
+  "scripts": {
+    "serve": "node start.js",
+    "dev": "nodemon start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jubairsaidi/node-gateway.git"
+  },
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "http-proxy": "^1.17.0",
+    "http-proxy-rules": "^1.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
